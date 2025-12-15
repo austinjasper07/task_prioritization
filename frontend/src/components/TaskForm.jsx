@@ -43,7 +43,7 @@ export default function TaskForm({ token, onTaskAdded }) {
   return (
     <form
       onSubmit={submit}
-      className="bg-white p-6 mb-6 shadow rounded space-y-5"
+      className="bg-white p-6 mb-6 shadow rounded space-y-5 w-[30%]"
     >
       <h2 className="text-xl font-semibold text-gray-800">
         Create a New Task
